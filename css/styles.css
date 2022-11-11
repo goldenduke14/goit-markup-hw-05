@@ -119,6 +119,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-color-text);
+  border-bottom: 4px solid transparent;
+  border-radius: 2px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -126,7 +128,12 @@ img {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
 }
+/* .site-nav .link.current::after {
+  content: "";
+  border-bottom: var(--accent-color);
+  } */
 .auth-nav {
   display: flex;
   margin-left: auto;
