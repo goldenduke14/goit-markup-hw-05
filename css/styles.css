@@ -667,6 +667,9 @@ img {
   position: relative;
   overflow: hidden;
 }
+.projects-img {
+  display: block;
+}
 .portfolio-hidden-dscr {
   position: absolute;
   display: flex;
